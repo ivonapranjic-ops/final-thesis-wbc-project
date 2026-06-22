@@ -1,41 +1,41 @@
-# zavrsni-rad
-Završni rad na preddiplomskom studiju pod nazivom Rapoznavanje bijelih krvnih stanica korištenjem sintetički generiranih podataka, mentor: prof. dr. sc. Irena Galić, sumentor: dr. sc. Marin Benčević
+# final-thesis
+The final thesis of the undergraduate study entitled White Blood Cell Recognition Using Synthetically Generated Data, mentor: Prof. Dr. Sc. Irena Galić, co-mentor: Dr. Sc. Marin Benčević
 
-## Opis projekta
-Klasifikacija bijelih krvnih stanica korištenjem sintetički generiranih podataka uspješno je
-provedena i analizirana u radu. Glavni cilj zadatka bio je uvidjeti koliko su sintetički podaci dobri
-u problemima koji uključuju klasifikaciju ljudskih stanica. Kroz teorijsku i tehničku pozadinu
-problema dan je uvid u područje koje povezuje računalne i medicinske grane znanosti. U
-praktičnom dijelu korištena je konvolucijska neuronska mreža u kombinaciji s metodom
-prijenosnog učenja korištenjem popularne neuronske mreže MobileNetV2. Provedenim
-eksperimentom i analizom donešeni su zaključci, kao i sugestije za buduće istraživanje u
-navedenom području. 
+## Project description
+Classification of white blood cells using synthetically generated data was successfully
+conducted and analyzed in the work. The main goal of the task was to see how good synthetic data is
+in problems involving the classification of human cells. Through the theoretical and technical background
+of the problem, an insight into the area that connects computer and medical branches of science is given. In the
+practical part, a convolutional neural network was used in combination with the
+transfer learning method using the popular neural network MobileNetV2. The
+experiment and analysis conducted brought conclusions, as well as suggestions for future research in
+the mentioned area.
 
-## Korištene tehnologije 
+## Technologies used
 - Python
 - TensorFlow
 - Keras
 - Google Colab
 - Kaggle API
 - Scikit-learn
-- Matplotlib i seaborn
+- Matplotlib and seaborn
 
-## Glavne funkcionalnosti
-- generiranje sintetičkih slika bijelih krvnih stanica
-- izgradnja CNN pomoću prijenosnog učenja
-- lokalno treniranje na sintetičkim podacima
-- testiranje na manjem skupu stvarnih slika
-- Cloud treniranje i testiranje
+## Main functionalities
+- generation of synthetic images of white blood cells
+- building a CNN using transfer learning
+- local training on synthetic data
+- testing on a smaller set of real images
+- Cloud training and testing
 
-## Kako pokrenuti projekt?
-- Koristiti Python (verzija 3.8 ili novija)
-- Instalirati potrebne biblioteke
-- Za generiranje sintetičkih slika korišten je rad od kolege, dostupan na sljedećem linku: https://github.com/krunoo53k/Artificial-cell-generation
-- Za stvarne podatke korišten je sljedeći dataset: https://github.com/Shenggan/BCCD_Dataset
-- Otvoriti datoteku u lokalnom ili Google Colab okruženju
+## How to start a project?
+- Use Python (version 3.8 or higher)
+- Install the required libraries
+- To generate synthetic images, work from a colleague was used, available at the following link: https://github.com/krunoo53k/Artificial-cell-generation
+- The following dataset was used for real data: https://github.com/Shenggan/BCCD_Dataset
+- Open the file in a local or Google Colab environment
 
-## Rezultati
-Detaljna analiza i prikaz rezultata rada dostupni su u poglavlju broj 6. 
+## Results
+A detailed analysis and presentation of the results of the work are available in chapter number 6.
 
-## Autor
-Ivona Pranjić
+## Author
+Ivona Pranjić, 2024./2025.
